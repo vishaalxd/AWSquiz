@@ -1,0 +1,41 @@
+.App {
+  margin: 0;
+  padding: 0;
+
+  /* background-image: url("http://d1.awsstatic.com/Getting%20Started/v3/GSRC_Header_Tertiary.6e0c87b7ffe206a63f79176473c9b06055208069.png"); */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  margin: 0;
+  padding: 0;
+  background-image: url("http://d1.awsstatic.com/Getting%20Started/v3/GSRC_Header_Tertiary.6e0c87b7ffe206a63f79176473c9b06055208069.png");
+  box-shadow: 3cm;
+}
+
+.header {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.field {
+  font-size: 10px;
+}
+
+#checkanswer {
+  /* visibility: hidden; */
+  display: none;
+}
+
+#checkanswer1 {
+  display: none;
+}
