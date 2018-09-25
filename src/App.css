@@ -38,4 +38,9 @@ body {
 
 #checkanswer1 {
   display: none;
+
+}
+
+#score {
+  display: none;
 }

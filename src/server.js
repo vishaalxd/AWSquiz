@@ -6,6 +6,9 @@ require('./components/models/qtnmodel.js');
 const app = express();
 const router = express.Router();
 const url = processs.env.MONGODB_URI || "mongodb://localhost:27017/quizmaster";
+app.use(express.static(`${__dirname}/../build`));
+
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
